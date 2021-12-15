@@ -12,4 +12,4 @@ jobs:
     #if: github.event.base_ref == 'refs/heads/main'
     steps:
       - name: Event
-        run: echo ${{ toJson(github.event) }}
+        run: echo "${{ toJson(github.event) }}"
