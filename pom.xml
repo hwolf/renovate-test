@@ -37,6 +37,11 @@
             <artifactId>commons-io</artifactId>
             <version>20030203.000550</version>
         </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>1.0-b1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
