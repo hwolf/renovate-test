@@ -15,7 +15,7 @@
     <properties>
         <java.version>11</java.version>
         <xxx.test1>amd64/ubuntu:22.10</xxx.test1>
-        <xxx.test2>eclipse-temurin:11.0.15_10-jdk</xxx.test2>
+        <xxx.test2>eclipse-temurin:11.0.15_10-jdk-alpine</xxx.test2>
     </properties>
     <dependencies>
         <dependency>
