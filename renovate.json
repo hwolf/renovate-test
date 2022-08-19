@@ -2,6 +2,17 @@
   "extends": [
     "config:base"
   ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "adoptopenjdk/openjdk11"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "versiong": "loose"
+    }
+  ],
   "regexManagers": [
     {
       "fileMatch": [
@@ -11,8 +22,7 @@
       "matchStrings": [
         "<xxx\\S*>(?<depName>\\S*):(?<currentValue>\\S*)</xxx\\S*>"
       ],
-      "datasourceTemplate": "docker",
-      "versioningTemplate": "loose"
+      "datasourceTemplate": "docker"
     }
   ]
 }
