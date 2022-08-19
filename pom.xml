@@ -14,7 +14,7 @@
     <description>renovate-test</description>
     <properties>
         <java.version>11</java.version>
-        <xxx.test1>amd64/ubuntu:18.04</xxx.test1>
+        <xxx.test1>amd64/ubuntu:18.10</xxx.test1>
         <xxx.test2>adoptopenjdk/openjdk11:jdk-11.0.11_5-alpine</xxx.test2>
     </properties>
     <dependencies>
