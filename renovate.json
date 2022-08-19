@@ -9,7 +9,7 @@
       ],
       "matchStringsStrategy": "any",
       "matchStrings": [
-        "<xxx\\S*>(?<depName>\\S*):(?<currentValue>\\S*)</xxxx\\S*>"
+        "<xxx\\S*>(?<depName>\\S*):(?<currentValue>\\S*)</xxx\\S*>"
       ],
       "datasourceTemplate": "docker",
       "versioningTemplate": "loose"
