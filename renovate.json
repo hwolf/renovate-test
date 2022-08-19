@@ -9,11 +9,10 @@
       ],
       "matchStringsStrategy": "any",
       "matchStrings": [
-        "<xxxx\\S*>(?<depName>\\S*):(?<currentValue>\\S*)</xxxx\\S*>"
+        "<xxx\\S*>(?<depName>\\S*):(?<currentValue>\\S*)</xxxx\\S*>"
       ],
       "datasourceTemplate": "docker",
       "versioningTemplate": "loose"
     }
-  ],
-  "printConfig": true
+  ]
 }
