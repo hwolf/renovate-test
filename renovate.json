@@ -10,7 +10,7 @@
       "matchDatasources": [
         "docker"
       ],
-      "versiong": "loose"
+      "versioning": "loose"
     }
   ],
   "regexManagers": [
