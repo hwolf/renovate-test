@@ -5,7 +5,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "adoptopenjdk/openjdk11"
+        "eclipse-temurin"
       ],
       "matchDatasources": [
         "docker"
