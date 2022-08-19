@@ -15,6 +15,7 @@
     <description>renovate-test</description>
     <properties>
         <java.version>11</java.version>
+        <xxx.test>amd64/ubuntu:18.04</xxx.test>
     </properties>
     <dependencies>
         <dependency>

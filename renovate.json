@@ -1,5 +1,18 @@
 {
   "extends": [
     "config:base"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^pom.xml$"
+      ],
+      "matchStringsStrategy": "any",
+      "matchStrings": [
+        "<xxxx\\S*>(?<depName>\\S*):(?<currentValue>\\S*)</xxxx\\S*>"
+      ],
+      "datasourceTemplate": "docker",
+      "versioningTemplate": "loose"
+    }
   ]
 }
