@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "matchDatasources": [
-        "mvn"
+        "maven"
       ],
       "automerge": true,
       "matchUpdateTypes": [
