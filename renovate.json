@@ -1,16 +1,21 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
   ],
+  "addLabels": [
+    "deps"
+  ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "eclipse-temurin"
-      ],
       "matchDatasources": [
-        "docker"
+        "mvn"
       ],
-      "versioning": "loose"
+      "automerge": true,
+      "matchUpdateTypes": [
+        "patch",
+        "digest"
+      ]
     }
   ],
   "regexManagers": [
